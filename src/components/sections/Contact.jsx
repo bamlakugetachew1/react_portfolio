@@ -1,7 +1,7 @@
 import user_info from "../../data/user_info.js";
 
-import { FaSquareXTwitter, FaLinkedin } from "react-icons/fa6";
-import { FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 function Contact() {
@@ -22,33 +22,6 @@ function Contact() {
 
       {/* =========== LINKS =========== */}
       <div className="mt-12">
-        {/* =========== FACEBOOK =========== */}
-        <a
-          href={user_info.socials.facebook}
-          className="flex gap-4 text-zinc-600 dark:text-zinc-300 hover:dark:text-zinc-300  hover:text-zinc-700 transition-all duration-300"
-        >
-          <FaFacebook className="self-center text-lg text-red-800 dark:text-red-500" />
-          <span className="self-center">Follow on Facebook</span>
-        </a>
-
-        {/* =========== X =========== */}
-        <a
-          href={user_info.socials.twitter}
-          className="flex gap-4 text-zinc-600 dark:text-zinc-300 hover:dark:text-zinc-300 hover:text-zinc-700 transition-all duration-300 mt-4"
-        >
-          <FaSquareXTwitter className="self-center text-lg text-red-800 dark:text-red-500" />
-          <span className="self-center">Follow on X</span>
-        </a>
-        
-        {/* =========== INSTAGRAM =========== */}
-        <a
-          href={user_info.socials.instagram}
-          className="flex gap-4 text-zinc-600 dark:text-zinc-300 hover:dark:text-zinc-300 hover:text-zinc-700 transition-all duration-300 mt-4"
-        >
-          <FaInstagram className="self-center text-lg text-red-800 dark:text-red-500" />
-          <span className="self-center">Follow on Instagram</span>
-        </a>
-
         {/* =========== LINKEDIN =========== */}
         <a
           href={user_info.socials.linkedin}
@@ -56,6 +29,14 @@ function Contact() {
         >
           <FaLinkedin className="self-center text-lg text-red-800 dark:text-red-500" />
           <span className="self-center">Follow on Linkedin</span>
+        </a>
+
+        <a
+          href={user_info.socials.github}
+          className="flex gap-4 text-zinc-600 dark:text-zinc-300 hover:dark:text-zinc-300 hover:text-zinc-700 transition-all duration-300 mt-4"
+        >
+          <FaGithub className="self-center text-lg text-red-800 dark:text-red-500" />
+          <span className="self-center">Follow on Github</span>
         </a>
       </div>
 

@@ -1,180 +1,135 @@
 const info = {
-    // ============ MAIN DETAILS ============
-    main: {
-        name: "Daniel Shan Balico",
-        description: "I am a software engineer with expertise in full-stack web development. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards.",
-        role: "Full-Stack Developer",
-        photo: "../photo.webp",
-        email: "danielshan.balico@gmail.com",
+  // ============ MAIN DETAILS ============
+  main: {
+    name: "Bamlaku Getachew",
+    description:
+      "As a developer, I bring a deep passion for web development and a relentless drive to contribute to your projects. My hunger for knowledge and eagerness to grow fuel my commitment to delivering high-quality results. I have a solid foundation in key technologies like MongoDB, React, Node.js, Express.js, PHP, MySQL, and various front-end and back-end frameworks, and I’m constantly expanding my expertise. I prioritize writing clean, efficient code that aligns with best practices, ensuring solutions that not only meet but exceed user expectations. If you’re seeking a developer who is dedicated, innovative, and ready to exceed expectations, I’m here to help!",
+    role: "Full-Stack Developer",
+    photo: "../photo.webp",
+    email: "abuget@gmail.com",
+  },
+
+  // ============ SOCIAL LINKS ============
+  socials: {
+    github: "https://github.com/bamlakugetachew1",
+    linkedin: "https://www.linkedin.com/in/bamlaku-getachew/",
+  },
+
+  // ============ PROJECTS ============
+  projects: [
+    {
+      title: "Crowdfund",
+      description:
+        "This project is a RESTful API for a crowdfunding application, designed for horizontal scalability and high performance. Built with Node.js and based on Express, MongoDB, Redis, JWT, and BullMQ, it supports clustering and is fully containerized using Docker. The project also includes a CI/CD pipeline for seamless deployment and maintenance.",
+      technologies:
+        "Node.js, Express.js, MongoDB, Redis, Docker, Jest, Swagger, GitHub Actions",
+      github: "https://github.com/bamlakugetachew1/kickstarterprod",
+      link: "https://crowdprod.onrender.com/api-docs",
     },
-
-    // ============ SOCIAL LINKS ============
-    socials: {
-        twitter: "https://twitter.com/dsbalico",
-		github: "https://github.com/dsbalico",
-		linkedin: "https://linkedin.com/in/dsbalico",
-		instagram: "https://instagram.com/dsbalico",
-		facebook: "https://facebook.com/dsbalico",
+    {
+      title: "Airbnb",
+      description:
+        "The project is a decentralized web3.0 version of the Airbnb renting website, built on top of Node.js, Express.js, MongoDB, and React. It allows users to rent out their properties, houses, and apartments and earn money. The project uses Google OAuth and PassportJS for signing in and Node.js and Express for the backend. MongoDB is used for data persistence.",
+      technologies:
+        "React, Node.js, MongoDB, Express.js, Material UI, Tailwind CSS",
+      github: "https://github.com/bamlakugetachew1/airbnbbackend",
+      link: "https://findplaceone.netlify.app/",
     },
-
-    // ============ PROJECTS ============
-    projects: [
-        {
-			title: "Pseudocode to C",
-			description: "Pseudocode to C is a web app that translates pseudocode into C code, aiding in the transition from high-level logic to a lower-level language.",
-            technologies: "React, Tailwind, Flask, SpaCy",
-			github: "https://github.com/dsbalico/pseudocode-to-c",
-            link: "https://pseudocode-to-c.netlify.app/"
-		},
-
-        {
-			title: "YouShare",
-			description: "Developed to learn full-stack web development using Nuxt3, Express, and PostgreSQL in fulfillment of my internship requirements.",
-			technologies: "Nuxt, Tailwind, Express, PostgreSQL",
-			github: "https://github.com/dsbalico/YouShare",
-            link: "https://github.com/dsbalico/YouShare"
-		},
-
-        {
-			title: "Draw & Classify",
-			description: "Draw & Classify is a web application designed to test my machine learning model, which classifies drawn letters, digits, or shapes.",
-			technologies: "React, Tailwind, Tensorflow",
-			github: "https://github.com/dsbalico/letter-digit-shape-classification",
-            link: "https://letterdigitshape-classification.netlify.app/"
-		},
-
-		{
-			title: "Chatroom",
-			description: "Chatroom is a simple online chatting web application where you can create chat rooms and have a fun conversation with a group of people.",
-			technologies: "React, Tailwind, Firebase",
-			github: "https://github.com/dsbalico/chatroom",
-            link: "https://thechatroom.netlify.app/"
-		},
-
-		{
-			title: "Sudoku Solver",
-			description: "Sudoku Solver is a web application that can generate or solve sudoku problems using simulated annealing, an optimization algorithm.",
-			technologies: "React, Tailwind, TypeScript",
-			github: "https://github.com/dsbalico/sudoku-solver-using-simulated-annealing",
-            link: "https://sudoku-solver-sa.netlify.app/"
-		},
-
-		{
-			title: "Probability Pick",
-			description: "Probability Pick is a PCSO Lotto Number Generator that calculates the likelihood of selecting winning numbers based on historical draw data.",
-			technologies: "React, Tailwind, Flask",
-			github: "https://github.com/dsbalico/pcso-lotto-number-generator",
-            link: "https://probability-pick.netlify.app/"
-		},
-    ],
-
-    // ============ EDUCATION ============
-    education: [
-        {
-            school: "Technological University of the Philippines",
-            degree: "Bachelor of Science in Computer Science",
-            duration: "2020 - 2024",
-            image: "tup.webp"
-        },
-        {
-            school: "STI College",
-            degree: "ICT in Mobile App and Web Development",
-            duration: "2018 - 2020",
-            image: "sti.webp"
-        },
-    ],
-
-    // ============ EXPERIENCE ============
-    experience: [
-        {
-            position: "Full-Stack Developer Intern",
-            company: "Centralized Cloud Computing International, Inc.",
-            duration: "Mar 2024 - Jun 2024 (3 Months)",
-            image: "ccci.webp",
-            descriptions: [
-                "Completed an extensive training program in full-stack web development.",
-                "Actively contributed to the ongoing development of a web application.",
-                "Mentored by senior developers on best practices and code optimization.",
-            ]
-        },
-        {
-            position: "Work Immersion - Web Developer",
-            company: "St. Peter Velle Technical Training Center",
-            duration: "Nov 2019 - Dec 2019 (1 Month)",
-            image: "spvttc.webp",
-            descriptions: [
-                "Developed Python scripts to automate document score calculations.",
-                "Developed a company website as part of an ICT-related work immersion program."
-            ]
-        },
-    ],
-
-    // ============ CERTIFICATES ============
-    certificates: [
-        {
-            title: "Foundations of Cybersecurity Certificate",
-            description: "Provided by Coursera & Authorized by IBM",
-            icon: "ibm",
-            link: "https://www.coursera.org/account/accomplishments/records/SF2PPLNVTH6R",
-        },
-        {
-            title: "Git and GitHub Essentials",
-            description: "Provided by Coursera & Authorized by IBM",
-            icon: "ibm",
-            link: "https://www.credly.com/badges/fa00026a-4db5-4269-ab4f-340f5382ac03",
-        },
-        {
-            title: "Crash Course on Python Certificate",
-            description: "Provided by Coursera & Authorized by Google",
-            icon: "google",
-            link: "https://www.coursera.org/account/accomplishments/verify/S9773NBEK4S6"
-        },
-        {
-            title: "Technical Support Fundamentals Certificate",
-            description: "Provided by Coursera & Authorized by Google",
-            icon: "google",
-            link: "https://www.coursera.org/account/accomplishments/verify/P9EH5HNYRESZ"
-        },
-        {
-            title: "Introduction to Web Development with HTML, CSS, JavaScript Certificate",
-            description: "Provided by Coursera & Authorized by IBM",
-            icon: "ibm",
-            link: "https://www.credly.com/badges/7b88eb00-e1f9-4ae6-be2a-3b2ae8983c44"
-        },
-        {
-            title: "Introduction to Cloud Computing Certificate",
-            description: "Provided by Coursera & Authorized by IBM",
-            icon: "ibm",
-            link: "https://www.credly.com/badges/514b694a-8dc4-418d-9af4-61908dc29ca8"
-        },
-        {
-            title: "Django Application Development with SQL and Databases Certificate",
-            description: "Provided by Coursera & Authorized by IBM",
-            icon: "ibm",
-            link: "https://www.credly.com/badges/a36dd8a3-1050-4c4e-bcef-97b39babf55e"
-        },
-        {
-            title: "Front-End Developer (React) Certificate",
-            description: "Provided by HackerRank",
-            icon: "hackerrank",
-            link: "https://www.hackerrank.com/certificates/631ac3acf267"
-        },
-        {
-            title: "Software Engineer Certificate",
-            description: "Provided by HackerRank",
-            icon: "hackerrank",
-            link: "https://www.hackerrank.com/certificates/efdbdd44eb7d"
-        }
-    ],
-
-    // ============ CONTACT ============
-    contact: {
-        title: "Let's Get in Touch: Ways to Connect with Me",
-        description: "Thank you for your interest in getting in touch with me. I welcome your feedback, questions, and suggestions. If you have a specific question or comment, please feel free to email me directly at danielshan.balico@gmail.com. I make an effort to respond to all messages within 24 hours, although it may take me longer during busy periods. Finally, if you prefer to connect on social media, you can connect with me using the social media links below.",
+    {
+      title: "Blogethiopia",
+      description:
+        "This project is built using the MERN (MongoDB, Express, React, Node.js) stack, a popular combination of technologies for full-stack web development. It includes a range of features similar to Medium, allowing users to like, share, and save content, and even listen to articles in audio format.",
+      technologies:
+        "React, Node.js, MongoDB, Express.js, Material UI, Tailwind CSS",
+      github: "https://github.com/bamlakugetachew1/Blogs",
+      link: "https://blogethiopia.netlify.app/",
     },
+    {
+      title: "LetsChatWithFreedom",
+      description:
+        "This project is a simple and efficient chat application that enables users to create groups and initiate conversations. Built using a powerful technology stack including Node.js, Express.js, MongoDB, and Vue.js, it provides a seamless and reliable user experience.",
+      technologies:
+        "Vue.js, WebSocket, Node.js, MongoDB, Express.js, Tailwind CSS",
+      github: "https://github.com/bamlakugetachew1/chat",
+      link: "https://letschatwithfreedom.netlify.app/",
+    },
+  ],
 
-    // ============ FOOTER ============
-    footer: "© 2024 Daniel Shan Balico. All Rights Reserved"
-}
+  // ============ EDUCATION ============
+  education: [
+    {
+      school: "Bahir Dar University",
+      degree: "Bachelor of Science in  Software Engineering",
+      duration: "2029 - 2024",
+      image: "bdu.jpg",
+    },
+    {
+      school: "Coursera",
+      degree: "Meta Front-End Developer Professional Certificate",
+      duration: "Apr 2023 - Jun 2023",
+      image: "coursera.png",
+    },
+  ],
 
-export default info
+  // ============ EXPERIENCE ============
+  experience: [
+    {
+      position: "Full-Stack Developer Intern",
+      company: "Hahu jobs.",
+      duration: "Mar 2022 - Jun 2022 (3 Months)",
+      image: "hahu.png",
+      descriptions: [
+        "Completed an extensive training program in full-stack web development.",
+        "Actively contributed to the ongoing development of a recipe web application.",
+        "Mentored by senior developers on best practices and code optimization.",
+        "worked on a variety of projects involving front-end and back-end technologies such as Vue.js, Hasura, PostgreSQL, Node, and Tailwind CSS.",
+      ],
+    },
+    {
+      position: "Backend Nodejs Developer",
+      company: "Upwork",
+      duration: "Sep 2023 - Feb 2023 (4 Month)",
+      image: "upwork.png",
+      descriptions: [
+        "developed strong communication skills and the ability to work effectively under tight timelines and budgets",
+        "Developed a Node js script to scrap websites reguraly.",
+      ],
+    },
+    {
+      position: "Full-Stack Developer Intern",
+      company: "Boost software ",
+      duration: "Mar 2023 - Jun 2023 (3 Month)",
+      image: "boost.png",
+      descriptions: [
+        "used modern development tools and techniques and scaling mern stack to handle larger students requests",
+        "developers an automated campus leaving web app using MERN stack.",
+      ],
+    },
+  ],
+
+  // ============ CERTIFICATES ============
+  certificates: [
+    {
+      title: "Meta Front-End Developer Professional Certificate",
+      description: "Provided by Coursera & Meta",
+      link: "https://www.coursera.org/account/accomplishments/professional-cert/KEB3V3ND4HRK",
+    },
+    {
+      title: "Full-Stack Developer Professional Certificate",
+      description: "Provided by Hahu Jobs",
+      link: "https://drive.google.com/file/d/1ng2PnPbDXHk11q1UxOjrLw6i_-im2cBV/view?usp=drive_link",
+    },
+  ],
+
+  // ============ CONTACT ============
+  contact: {
+    title: "Let's Get in Touch: Ways to Connect with Me",
+    description:
+      "Thank you for your interest in getting in touch with me. I welcome your feedback, questions, and suggestions. If you have a specific question or comment, please feel free to email me directly at abuget@gmail.com",
+  },
+
+  // ============ FOOTER ============
+  footer: "© 2024 Bamlaku Getachew All Rights Reserved",
+};
+
+export default info;
