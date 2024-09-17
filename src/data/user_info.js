@@ -33,7 +33,7 @@ const info = {
       technologies:
         "React, Node.js, MongoDB, Express.js, Material UI, Tailwind CSS",
       github: "https://github.com/bamlakugetachew1/airbnbbackend",
-      link: "https://findplaceone.netlify.app/",
+      link: "https://airbnbfrontend-omega.vercel.app/",
     },
     {
       title: "Blogethiopia",
