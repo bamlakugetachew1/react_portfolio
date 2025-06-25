@@ -3,7 +3,10 @@ import { IoIosArrowForward } from "react-icons/io";
 
 function Hero() {
   return (
-    <section id="hero" className="pb-28 pt-24 sm:pt-28 md:pt-44 flex px-6 lg:px-24">
+    <section
+      id="hero"
+      className="pb-28 pt-24 sm:pt-28 md:pt-44 flex px-6 lg:px-24"
+    >
       <div className="self-center">
         <div className="flex gap-2 align-center flex-wrap md:flex-nowrap">
           <div className="lg:w-[100%] text-zinc-900 dark:text-zinc-100 self-center">
@@ -17,8 +20,9 @@ function Hero() {
             </p>
 
             <div className="flex gap-2 mt-6">
-            <a
-                href="https://drive.google.com/file/d/1UnU0AjvJJ7Q8hcp49yeglH40-t-UKTpp/view?usp=drive_link" target="_blank"
+              <a
+                href="https://drive.google.com/file/d/1-VAS_0arG7NCjTEBzMdi4Wm0jmgPDkXf/view?usp=drive_link"
+                target="_blank"
                 className="px-6 py-3 border border-black hover:bg-red-800 hover:text-white hover:border-red-800 dark:border-white font-medium transition-all duration-300"
               >
                 Resume
@@ -38,7 +42,6 @@ function Hero() {
               </a>
             </div>
           </div>
-
         </div>
       </div>
     </section>
