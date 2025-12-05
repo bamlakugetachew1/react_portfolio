@@ -21,7 +21,7 @@ function Hero() {
 
             <div className="flex gap-2 mt-6">
               <a
-                href="https://drive.google.com/file/d/1-VAS_0arG7NCjTEBzMdi4Wm0jmgPDkXf/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1xa0SjgRk8MY-SAEyLJZMZC0uwHdrH3kB/view?usp=sharing"
                 target="_blank"
                 className="px-6 py-3 border border-black hover:bg-red-800 hover:text-white hover:border-red-800 dark:border-white font-medium transition-all duration-300"
               >
